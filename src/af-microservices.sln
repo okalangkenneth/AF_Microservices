@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83AE6085-7581-4FAB-A6E3-B4F21CF6CC6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobPosting", "JobPosting", "{2BBE4C6A-BD06-4037-A572-875D61ACC6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPosting.API", "Services\JobPosting\JobPosting.API\JobPosting.API.csproj", "{833B06F4-4276-430C-ADBA-363B05298053}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833B06F4-4276-430C-ADBA-363B05298053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833B06F4-4276-430C-ADBA-363B05298053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833B06F4-4276-430C-ADBA-363B05298053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833B06F4-4276-430C-ADBA-363B05298053}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BBE4C6A-BD06-4037-A572-875D61ACC6F3} = {83AE6085-7581-4FAB-A6E3-B4F21CF6CC6F}
+		{833B06F4-4276-430C-ADBA-363B05298053} = {2BBE4C6A-BD06-4037-A572-875D61ACC6F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2563EFE-144F-472E-8823-2C73F6515D53}
