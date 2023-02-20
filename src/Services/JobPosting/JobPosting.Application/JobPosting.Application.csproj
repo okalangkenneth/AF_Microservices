@@ -8,4 +8,10 @@
     <ProjectReference Include="..\JobPosting.Domain\JobPosting.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Features\" />
+    <Folder Include="Behaviours\" />
+  </ItemGroup>
+
 </Project>
