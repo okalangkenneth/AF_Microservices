@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 
 namespace JobPosting.Application.Contracts.Persistence
 {
-    public interface IEmployerRepository : IAsyncRepository<Job_Posting>
+    public interface IJobPostingRepository : IAsyncRepository<Job_Posting>
     {
-        Task<IEnumerable<Job_Posting>> GetEmployersByUserName(string userName);
+        Task<IEnumerable<Job_Posting>> GetJobPostingsByUserName(string userName);
     }
 }

@@ -1,14 +1,16 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using JobPosting.Application.Features.JobPostings.Queries.GetJobPostingsList;
+using JobPosting.Domain.Entities;
 
 namespace JobPosting.Application.Mappings
 {
     public class MappingProfile : Profile
     {
+
+        public MappingProfile()
+        {
+            CreateMap<Job_Posting,JobPostingsVm>().ReverseMap();
+        }
 
     }
 }
