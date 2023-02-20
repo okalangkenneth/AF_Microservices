@@ -1,15 +1,15 @@
-﻿using JobPosting.Domain.Common;
+﻿using JobPosting.Domain.Entities;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JobPosting.Domain.Entities
+namespace JobPosting.Application.Features.JobPostings.Commands.CreateJobPosting
 {
-    public class Job_Posting : EntityBase
+    public class CreateJobPostingCommand : IRequest<int>
     {
-        
         public string Title { get; set; }
         public string JobDescription { get; set; }
         public DateTime PostDate { get; set; }
@@ -22,8 +22,5 @@ namespace JobPosting.Domain.Entities
         public bool IsFullTime { get; set; }
         public string ContactEmail { get; set; }
 
-
-
-        
     }
 }

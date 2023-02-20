@@ -1,4 +1,4 @@
-﻿using JobPosting.Domain.Entities;
+﻿using System;
 using System.Collections.Generic;
 
 namespace JobPosting.Application.Features.JobPostings.Queries.GetJobPostingsList
@@ -6,9 +6,17 @@ namespace JobPosting.Application.Features.JobPostings.Queries.GetJobPostingsList
     public class JobPostingsVm
     {
         public int Id { get; set; }
-        public string JobCategory { get; set; }
-        public string JobCategoryDescription { get; set; }
-        public ICollection<Job_Posting> JobPostings { get; set; }
+        public string Title { get; set; }
+        public string JobDescription { get; set; }
+        public DateTime PostDate { get; set; }
+        public DateTime ExpiryDate { get; set; }
+        public string JobLocation { get; set; }
+        public decimal Salary { get; set; }
+        public List<string> RequiredSkills { get; set; }
+        public List<string> PreferredSkills { get; set; }
+        public bool IsRemote { get; set; }
+        public bool IsFullTime { get; set; }
+        public string ContactEmail { get; set; }
     }
 }
 
