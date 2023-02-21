@@ -8,12 +8,12 @@ using ValidationException = JobPosting.Application.Exceptions.ValidationExceptio
 
 namespace JobPosting.Application.Behaviours
 {
-    public class ValidationsBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 
     {
         private readonly IEnumerable<IValidator<TRequest>> _validators;
 
-        public ValidationsBehaviour(IEnumerable<IValidator<TRequest>> validators)
+        public ValidationBehaviour(IEnumerable<IValidator<TRequest>> validators)
         {
             _validators = validators;
         }
