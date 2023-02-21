@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using JobPosting.Application.Contracts.Persistence;
+using JobPosting.Application.Exceptions;
 using JobPosting.Domain.Entities;
 using MediatR;
 using Microsoft.Extensions.Logging;
@@ -13,8 +14,16 @@ namespace JobPosting.Application.Features.JobPostings.Commands.UpdateJobPosting
        
         
         private readonly IJobPostingRepository _jobPostingRepository;
-        private readonly IMapper _mapper;
         private readonly ILogger<UpdateJobPostingCommandHandler> _logger;
+        private readonly IMapper _mapper;
+     
+
+        public UpdateJobPostingCommandHandler(IJobPostingRepository jobPostingRepository, IMapper mapper, ILogger <UpdateJobPostingCommandHandler> logger)
+        {
+            _jobPostingRepository = jobPostingRepository;
+            _mapper = mapper;
+            _logger = logger;
+        }
 
 
         public async Task  Handle(UpdateJobPostingCommand request, CancellationToken cancellationToken)
@@ -22,9 +31,9 @@ namespace JobPosting.Application.Features.JobPostings.Commands.UpdateJobPosting
             var jobPostingToUpdate = await _jobPostingRepository.GetByIdAsync(request.Id);
             if (jobPostingToUpdate == null)
             {
-                _logger.LogError("Job Posting doesnt exist in the datbase");
+               
 
-                // throw new NotFoundException(nameof(Job_Posting),request.Id);
+                 throw new NotFoundException(nameof(Job_Posting),request.Id);
             }
             _mapper.Map(request, jobPostingToUpdate, typeof(UpdateJobPostingCommand), typeof(Job_Posting));
 
