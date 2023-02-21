@@ -22,7 +22,7 @@ namespace JobPosting.Application.Features.JobPostings.Queries.GetJobPostingsList
         public async Task<List<JobPostingsVm>> Handle(GetJobPostingsListQuery request, CancellationToken cancellationToken)
         {
 
-            var jobPostingList = await _jobPostingRepository.GetJobPostingsByUserName(request.UserName);
+            var jobPostingList = await _jobPostingRepository.GetJobPostingsByTitle(request.Title);
             return _mapper.Map<List<JobPostingsVm>>(jobPostingList);
 
         }

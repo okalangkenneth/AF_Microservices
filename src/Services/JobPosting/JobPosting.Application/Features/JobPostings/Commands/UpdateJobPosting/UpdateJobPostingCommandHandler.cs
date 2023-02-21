@@ -26,7 +26,7 @@ namespace JobPosting.Application.Features.JobPostings.Commands.UpdateJobPosting
         }
 
 
-        public async Task  Handle(UpdateJobPostingCommand request, CancellationToken cancellationToken)
+        public async Task <Unit>  Handle(UpdateJobPostingCommand request, CancellationToken cancellationToken)
         {
             var jobPostingToUpdate = await _jobPostingRepository.GetByIdAsync(request.Id);
             if (jobPostingToUpdate == null)
@@ -41,7 +41,7 @@ namespace JobPosting.Application.Features.JobPostings.Commands.UpdateJobPosting
 
             _logger.LogInformation($" Job Posting{jobPostingToUpdate.Id} is successfully updated.");
 
-            
+            return Unit.Value;
         }
     }
     

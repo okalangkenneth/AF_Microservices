@@ -24,7 +24,7 @@ namespace JobPosting.Application.Features.JobPostings.Commands.DeleteJobPosting
             _mapper = mapper;
         }
 
-        public async Task  Handle(DeleteJobPostingCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(DeleteJobPostingCommand request, CancellationToken cancellationToken)
         {
             var jobPostingToDelete = await _jobPostingRepository.GetByIdAsync(request.Id);
             if (jobPostingToDelete == null)
@@ -39,7 +39,7 @@ namespace JobPosting.Application.Features.JobPostings.Commands.DeleteJobPosting
             _logger.LogInformation($" Job Posting{jobPostingToDelete.Id} is successfully deleted.");
 
 
-            
+            return Unit.Value;
 
         }
     }

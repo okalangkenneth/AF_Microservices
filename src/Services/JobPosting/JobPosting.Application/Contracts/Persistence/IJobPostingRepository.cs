@@ -6,6 +6,6 @@ namespace JobPosting.Application.Contracts.Persistence
 {
     public interface IJobPostingRepository : IAsyncRepository<Job_Posting>
     {
-        Task<IEnumerable<Job_Posting>> GetJobPostingsByUserName(string userName);
+        Task<IEnumerable<Job_Posting>> GetJobPostingsByTitle(string title);
     }
 }

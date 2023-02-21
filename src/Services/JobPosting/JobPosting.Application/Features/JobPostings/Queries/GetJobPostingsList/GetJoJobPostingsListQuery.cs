@@ -5,12 +5,12 @@ namespace JobPosting.Application.Features.JobPostings.Queries.GetJobPostingsList
 {
     public class GetJobPostingsListQuery : IRequest<List<JobPostingsVm>>
     {
-        public string UserName { get; set; }
+        public string Title { get; set; }
 
 
-        public GetJobPostingsListQuery(string userName)
+        public GetJobPostingsListQuery(string title)
         {
-            UserName = userName;
+            Title = title;
         }
     }
 }
