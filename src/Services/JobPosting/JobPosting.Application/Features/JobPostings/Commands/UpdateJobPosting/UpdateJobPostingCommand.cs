@@ -13,8 +13,6 @@ namespace JobPosting.Application.Features.JobPostings.Commands.UpdateJobPosting
         public DateTime ExpiryDate { get; set; }
         public string JobLocation { get; set; }
         public decimal Salary { get; set; }
-        public List<string> RequiredSkills { get; set; }
-        public List<string> PreferredSkills { get; set; }
         public bool IsRemote { get; set; }
         public bool IsFullTime { get; set; }
         public string ContactEmail { get; set; }

@@ -15,9 +15,9 @@ namespace JobPosting.Infrastructure.Repositories
     {
         protected readonly JobPostingContext _dbContext;
 
-        public RepositoryBase(JobPostingContext ddContext)
+        public RepositoryBase(JobPostingContext dbContext)
         {
-            ddContext = _dbContext;
+            _dbContext = dbContext;
         }
 
         public async  Task<T> AddAsync(T entity)
