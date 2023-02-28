@@ -1,11 +1,12 @@
 # HireMe
 
-An end-to-end job portal solution with a modern microservices architecture and CI/CD pipeline
+## An end-to-end job portal solution with a modern microservices architecture and CI/CD pipeline
 
-Project Overview:
+### Project Overview:
+
 Our job portal application is a modern, microservices-based platform designed to connect job seekers with potential employers. Built using the latest technologies and frameworks, our application offers a wide range of features and capabilities to help users find and apply for their dream jobs.
 
-Key Features:
+#### Key Features:
 
 User-friendly interface for job seekers and employers
 Real-time job notifications and alerts
