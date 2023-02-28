@@ -4,6 +4,7 @@
 
 ### Project Overview:
 
+
 Our job portal application is a modern, microservices-based platform designed to connect job seekers with potential employers. Built using the latest technologies and frameworks, our application offers a wide range of features and capabilities to help users find and apply for their dream jobs.
 
 #### Key Features:
@@ -26,6 +27,7 @@ Whether you are a job seeker or an employer, our job portal application has ever
 Thank you for considering our job portal application, and we look forward to your feedback and contributions.
 
 ### Architecture Overview:
+
 
 Our job portal application is built using a microservices architecture, which enables us to build and deploy individual services independently, making it easier to maintain and scale our system. Our microservices are designed to be loosely coupled and communicate with each other through APIs using asynchronous messaging. We have implemented the following core services:
 
