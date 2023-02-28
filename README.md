@@ -1,4 +1,4 @@
-# HireMe
+# Skill Find
 
 ## An end-to-end job portal solution with a modern microservices architecture and CI/CD pipeline
 
