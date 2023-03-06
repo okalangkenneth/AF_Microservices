@@ -20,7 +20,7 @@ Our job portal application is a modern, microservices-based platform designed to
 ### Purpose and objectives of the project.
 The purpose of the job portal project is to provide a platform for job seekers to find suitable job opportunities and for employers to find the right candidates to fill their job vacancies. The main objective of the project is to simplify the job search process by allowing users to search and apply for jobs online, and for employers to post job openings and manage applications in a centralized location. Additionally, the project aims to leverage the latest technologies and best practices in software development to ensure the security, scalability, and maintainability of the application.
 
-#### Key Features:
+### Key Features:
 
 - User-friendly interface for job seekers and employers
 - Real-time job notifications and alerts
@@ -34,7 +34,7 @@ The purpose of the job portal project is to provide a platform for job seekers t
 
 Our application is designed to be highly scalable and modular, with a microservices architecture that enables seamless integration of new features and services. We have implemented Domain-Driven Design (DDD) and Command-Query Responsibility Segregation (CQRS) patterns to achieve loose coupling between services and maintain high system availability.
 
-### Architecture Overview:
+## Architecture and Design.
 
 ![image](https://user-images.githubusercontent.com/68539411/223212580-1beef704-b842-42f2-baf9-c56c318ec17f.png)
 
