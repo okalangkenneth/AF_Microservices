@@ -22,10 +22,6 @@ Our job portal application is a modern, microservices-based platform designed to
 
 Our application is designed to be highly scalable and modular, with a microservices architecture that enables seamless integration of new features and services. We have implemented Domain-Driven Design (DDD) and Command-Query Responsibility Segregation (CQRS) patterns to achieve loose coupling between services and maintain high system availability.
 
-Whether you are a job seeker or an employer, our job portal application has everything you need to find your perfect match. With our advanced search capabilities, real-time notifications.
-
-Thank you for considering our job portal application, and we look forward to your feedback and contributions.
-
 ### Architecture Overview:
 
 ![image](https://user-images.githubusercontent.com/68539411/223212580-1beef704-b842-42f2-baf9-c56c318ec17f.png)
