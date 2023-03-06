@@ -2,7 +2,15 @@
 
 ## An end-to-end job portal solution with a modern microservices architecture and CI/CD pipeline
 
-### Project Overview:
+Table of Contents:
+Table of contents
+1. [Introduction](#introduction)
+        1. [Overview](#overview)
+2. [Architecture and design](#architecture-and-design)
+3. [Technologies Used](#technologies)
+
+
+### Overview:
 
 
 Our job portal application is a modern, microservices-based platform designed to connect job seekers with potential employers. Built using the latest technologies and frameworks, our application offers a wide range of features and capabilities to help users find and apply for their dream jobs.
