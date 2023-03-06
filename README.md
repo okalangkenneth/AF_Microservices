@@ -28,6 +28,9 @@ Thank you for considering our job portal application, and we look forward to you
 
 ### Architecture Overview:
 
+![image](https://user-images.githubusercontent.com/68539411/223212580-1beef704-b842-42f2-baf9-c56c318ec17f.png)
+
+
 
 Our job portal application is built using a microservices architecture, which enables us to build and deploy individual services independently, making it easier to maintain and scale our system. Our microservices are designed to be loosely coupled and communicate with each other through APIs using asynchronous messaging. We have implemented the following core services:
 
