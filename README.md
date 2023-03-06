@@ -7,7 +7,7 @@ Table of Contents:
 1. [Introduction](#introduction)
     - [Overview](#overview)
     - [Purpose and objectives of the project](#Purpose-and-objectives-of-the-project)
-    - [Key Features](#key features)
+    - [Key Features](#key-features)
 2. [Architecture and design](#architecture-and-design)
 3. [Technologies Used](#technologies)
 
