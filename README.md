@@ -5,7 +5,7 @@
 Table of Contents:
 Table of contents
 1. [Introduction](#introduction)
-    1. [Overview](#overview)
+    - [Overview](#overview)
 2. [Architecture and design](#architecture-and-design)
 3. [Technologies Used](#technologies)
 
