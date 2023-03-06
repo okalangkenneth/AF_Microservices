@@ -5,20 +5,16 @@
 Table of Contents:
 
 1. [Introduction](#introduction)
-    - [Overview](#overview)
-    - [Purpose and objectives of the project](#Purpose-and-objectives-of-the-project)
+    
+    - [Objectives](#objectives)
     - [Key Features](#key-features)
 2. [Architecture and design](#architecture-and-design)
 3. [Technologies Used](#technologies)
 
 ## Introduction.
 
-### Overview.
-
-Our job portal application is a modern, microservices-based platform designed to connect job seekers with potential employers. Built using the latest technologies and frameworks, our application offers a wide range of features and capabilities to help users find and apply for their dream jobs.
-
-### Purpose and objectives of the project.
-The purpose of the job portal project is to provide a platform for job seekers to find suitable job opportunities and for employers to find the right candidates to fill their job vacancies. The main objective of the project is to simplify the job search process by allowing users to search and apply for jobs online, and for employers to post job openings and manage applications in a centralized location. Additionally, the project aims to leverage the latest technologies and best practices in software development to ensure the security, scalability, and maintainability of the application.
+### Objectives.
+The main objective of the project is to simplify the job search process by allowing users to search and apply for jobs online, and for employers to post job openings and manage applications in a centralized location. Additionally, the project aims to leverage the latest technologies and best practices in software development to ensure the security, scalability, and maintainability of the application.
 
 ### Key Features:
 
