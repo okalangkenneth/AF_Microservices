@@ -6,13 +6,14 @@ Table of Contents:
 
 1. [Introduction](#introduction)
     - [Overview](#overview)
+    - [Purpose and objectives of the project](#Purpose-and-objectives-of-the-project)
+    - [Description of the job portal application](#Description-of-the-job-portal-application)
 2. [Architecture and design](#architecture-and-design)
 3. [Technologies Used](#technologies)
 
-### Introduction:
+## Introduction:
 
 ### Overview:
-
 
 Our job portal application is a modern, microservices-based platform designed to connect job seekers with potential employers. Built using the latest technologies and frameworks, our application offers a wide range of features and capabilities to help users find and apply for their dream jobs.
 
