@@ -3,12 +3,13 @@
 ## An end-to-end job portal solution with a modern microservices architecture and CI/CD pipeline
 
 Table of Contents:
-Table of contents
+
 1. [Introduction](#introduction)
     - [Overview](#overview)
 2. [Architecture and design](#architecture-and-design)
 3. [Technologies Used](#technologies)
 
+### Introduction:
 
 ### Overview:
 
